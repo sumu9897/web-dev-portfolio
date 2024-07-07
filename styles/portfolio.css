@@ -27,6 +27,15 @@
     border-radius: 5px;
     font-size: 20px;
 }
+.btn-secondary{
+    background-color: #FFF8F3;
+    font-weight: bold;
+    color: #FD6E0A;
+    border-color: #FD6E0A ;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+}
 
 .section-title{
     font-size: 35px;
@@ -47,7 +56,8 @@
 .header{
     background-image: url('../images/developer.png'),url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    margin: 0 -5px 0 -5px;
+    background-position: center left, bottom right;
 }
 /* Nav Styles */
 nav{
@@ -79,12 +89,14 @@ nav li a{
 
 /* banner style */
 .banner{
+    
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
 }
 .banner-content{
-    max-width: 580px;
+
+    max-width: 585px;
 }
 .banner-greetings{
     font-size: 45px;
@@ -92,6 +104,7 @@ nav li a{
 }
 .banner-title{
     font-weight: bold;
+    font-size: 86px;
 }
 .banner-description{
     font-size: 18px;
@@ -160,4 +173,34 @@ main section{
 
 .resume-download-cv{
     margin-top: 50px;
+}
+
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"],input[type="email"],textarea{
+    height: 24px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.icon {
+    display: flex;
+    gap: 15px;
+}
+
+.icon img {
+    width: 24px; 
+    height: auto; 
 }
