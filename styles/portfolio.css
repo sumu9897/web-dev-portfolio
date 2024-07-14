@@ -213,10 +213,10 @@ footer input[type="text"],input[type="email"],textarea{
 }
 
 @media screen and (max-width:576px){
-    .skills-container,.resume-container,footer{
+    .skills-container,.resume-container,footer,.about-items{
         flex-direction: column;
     }
-    footer{
+    .resume-container,footer,.about{
         padding: 20px;
     }
     .footer-column{
