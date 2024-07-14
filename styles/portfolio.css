@@ -205,3 +205,15 @@ footer input[type="text"],input[type="email"],textarea{
     width: 24px; 
     height: auto; 
 }
+
+
+/* Responsive Media Query */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px){
+    .skills-container{
+        flex-direction: column;
+    }
+}
